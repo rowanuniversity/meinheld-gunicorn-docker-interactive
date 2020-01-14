@@ -3,7 +3,7 @@ Docker image for running flask apps interactively (auto-refreshed templates) for
 
 ## Usage
 ```docker
-FROM rowan/meinheld-gunicorn-docker-interactive
+FROM rowanuniversity/meinheld-gunicorn-docker-interactive
 ```
 
 ## Credit
