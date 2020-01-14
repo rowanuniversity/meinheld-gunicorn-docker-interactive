@@ -1,7 +1,7 @@
   
 FROM python:3.7
 
-LABEL original="https://github.com/tiangolo"
+LABEL original="https://github.com/tiangolo/meinheld-gunicorn-docker"
 LABEL maintainer="Connor Hornibrook <hornibrookc@rowan.edu>"
 RUN pip install meinheld gunicorn
 
