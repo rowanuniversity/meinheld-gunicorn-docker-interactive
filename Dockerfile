@@ -9,6 +9,7 @@ COPY ./entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 COPY ./start.sh /start.sh
 RUN chmod +x /start.sh
+COPY ./gunicorn_conf.py /gunicorn_conf.py
 
 ENV PYTHONPATH=/app
 
